@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NOMBRE:"
+        android:textColor="#E84C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#FFE84C22"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Introduce tu nombre"
+        android:inputType="textPersonName"
+        android:textColor="#FD6F6969"
+        android:textColorHint="#FD6F6969"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="APELLIDO:"
+        android:textColor="#E84C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#FFE84C22"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Introduce tu apellido"
+        android:inputType="textPersonName"
+        android:textColor="#FD6F6969"
+        android:textColorHint="#FD6F6969"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="E-MAIL"
+        android:textColor="#E84C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#FFE84C22"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Introduce tu e-mail:"
+        android:inputType="textPersonName"
+        android:textColor="#FD6F6969"
+        android:textColorHint="#FD6F6969"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="PASSWORD:"
+        android:textColor="#E84C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#FFE84C22"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Introduce un password:"
+        android:inputType="textPassword"
+        android:textColor="#FD6F6969"
+        android:textColorHint="#FD6F6969"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="CONFIRMAR PASSWORD:"
+        android:textColor="#E84C22"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtPassConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#FFE84C22"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Confirma el password"
+        android:inputType="textPassword"
+        android:textColor="#FD6F6969"
+        android:textColorHint="#FD6F6969"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_redondo"
+        android:text="REGISTRAR" />
+
+    <ImageView
+        android:id="@+id/imgVwBackR"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="300dp"
+        android:background="@drawable/button_atras"
+        app:srcCompat="@drawable/atras" />
+</LinearLayout>
